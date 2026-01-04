@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td><b>ID: </b>TREX-01</td>
+        <td><b>ID: </b>QTEX-01</td>
         <td><b>Usuario: </b>Desarrollador</td>
     </tr>
     <tr>

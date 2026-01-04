@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td><b>ID: </b>AUMF-02</td>
+        <td><b>ID: </b>OBSF-02</td>
         <td><b>Usuario: </b>Administrador del sistema</td>
     </tr>
     <tr>
