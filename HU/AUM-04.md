@@ -1,7 +1,7 @@
 <table>
     <tr>
-        <td><b>ID: </b>AUTH-04</td>
-        <td><b>Usuario: </b>Usuario que olvidó su contraseña</td>
+        <td><b>ID: </b>AUM-04</td>
+        <td><b>Rol: </b>Usuario Registrado</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Restablecimiento de contraseña</td>
@@ -17,7 +17,7 @@
     <tr>
         <td colspan=2>
             <b>Historia de usuario: </b><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> usuario que olvidó su contraseña,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> registrado,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> restablecer mi contraseña,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> recuperar el acceso a mi cuenta y a las funciones del sistema.
         </td>

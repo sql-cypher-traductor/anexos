@@ -1,7 +1,7 @@
 <table>
     <tr>
-        <td><b>ID: </b>OBSF-01</td>
-        <td><b>Usuario: </b>Usuario</td>
+        <td><b>ID: </b>OBS-01</td>
+        <td><b>Rol: </b>Usuario</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Manejo de errores y retroalimentación</td>

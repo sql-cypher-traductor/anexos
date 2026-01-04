@@ -1,7 +1,7 @@
 <table>
     <tr>
-        <td><b>ID: </b>AUTH-03</td>
-        <td><b>Usuario: </b>Usuario Registrado</td>
+        <td><b>ID: </b>AUM-03</td>
+        <td><b>Rol: </b>Usuario Autenticado</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Cambio de Contraseña</td>
@@ -17,7 +17,7 @@
     <tr>
         <td colspan=2>
             <b>Historia de usuario: </b><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> usuario registrado,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> usuario autenticado,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> cambiar mi contraseña,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> mantener seguros los datos de mi cuenta.
         </td>

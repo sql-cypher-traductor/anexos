@@ -1,13 +1,13 @@
 <table>
     <tr>
-        <td><b>ID: </b>OBSF-04</td>
-        <td><b>Usuario: </b>Desarollador</td>
+        <td><b>ID: </b>OBS-03</td>
+        <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
-        <td colspan=2><b>Título: </b>Manejo de errores y retroalimentación</td>
+        <td colspan=2><b>Título: </b>Monitoreo de rendimiento</td>
     </tr>
     <tr>
-        <td><b>Prioridad en negocio: </b>Baja</td>
+        <td><b>Prioridad en negocio: </b>Media</td>
         <td><b>Riesgo en desarrollo: </b>Medio</td>
     </tr>
     <tr>

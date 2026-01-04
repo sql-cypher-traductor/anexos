@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <td><b>ID: </b>AUTH-02</td>
-        <td><b>Usuario: </b>Usuario Registrado</td>
+        <td><b>ID: </b>AUM-02</td>
+        <td><b>Rol: </b>Usuario Registrado</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Inicio de sesión</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Alta</td>
-        <td><b>Riesgo en desarrollo: </b>Alto</td>
+        <td><b>Riesgo en desarrollo: </b>Bajo</td>
     </tr>
     <tr>
         <td><b>Estimación: </b>5</td>
@@ -27,7 +27,6 @@
             <b>Criterios de aceptación: </b><br>
             <ul>
                 <li>El formulario debe solicitar los campos email y contraseña.</li>
-                <li>Se debe validar los campos ingresados con la información de la base de datos.</li>
                 <li>Se debe redireccionar al dashboard principal si el inicio de sesión fue exitoso.</li>
                 <li>Se debe mostrar mensajes de error si los campos están vacíos o se llenan con datos erróneos.</li>
             </ul>

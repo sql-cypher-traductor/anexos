@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <td><b>ID: </b>OBSF-03</td>
-        <td><b>Usuario: </b>Administrador de sistema</td>
+        <td><b>ID: </b>OBS-02</td>
+        <td><b>Rol: </b>Administrador</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Seguimiento de Logs</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Media</td>
-        <td><b>Riesgo en desarrollo: </b>Alto</td>
+        <td><b>Riesgo en desarrollo: </b>Bajo</td>
     </tr>
     <tr>
         <td><b>Estimación: </b>8</td>
@@ -17,7 +17,7 @@
     <tr>
         <td colspan=2>
             <b>Historia de usuario: </b><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> administrador del sistema,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> administrador,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> acceder a los logs del sistema,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> auditar toda actividad ejecutada y diagnosticar problemas.
         </td>

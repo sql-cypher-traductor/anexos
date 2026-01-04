@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <td><b>ID: </b>QTEX-04</td>
-        <td><b>Usuario: </b>Desarrollador</td>
+        <td><b>ID: </b>QTE-05</td>
+        <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Ejecución de consultas en Neo4j</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Alta</td>
-        <td><b>Riesgo en desarrollo: </b>Alto</td>
+        <td><b>Riesgo en desarrollo: </b>Medio</td>
     </tr>
     <tr>
         <td><b>Estimación: </b>8</td>

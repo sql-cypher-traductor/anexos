@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <td><b>ID: </b>QTEX-02</td>
-        <td><b>Usuario: </b>Desarrollador</td>
+        <td><b>ID: </b>QTE-02</td>
+        <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Traducción de consultas con cláusulas, operadores y funciones</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Alta</td>
-        <td><b>Riesgo en desarrollo: </b>Medio</td>
+        <td><b>Riesgo en desarrollo: </b>Alto</td>
     </tr>
     <tr>
         <td><b>Estimación: </b>5</td>

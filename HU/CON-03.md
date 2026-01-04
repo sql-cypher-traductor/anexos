@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <td><b>ID: </b>CONN-03</td>
-        <td><b>Usuario: </b>Desarrollador</td>
+        <td><b>ID: </b>CON-03</td>
+        <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Gestión y visualización de conexiones</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Media</td>
-        <td><b>Riesgo en desarrollo: </b>Medio</td>
+        <td><b>Riesgo en desarrollo: </b>Bajo</td>
     </tr>
     <tr>
         <td><b>Estimación: </b>5</td>

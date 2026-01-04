@@ -1,14 +1,14 @@
 <table>
     <tr>
-        <td><b>ID: </b>AUTH-01</td>
-        <td><b>Usuario: </b>Nuevo Usuario</td>
+        <td><b>ID: </b>AUM-01</td>
+        <td><b>Rol: </b>Nuevo Usuario</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Registro de usuario</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Alta</td>
-        <td><b>Riesgo en desarrollo: </b>Medio</td>
+        <td><b>Riesgo en desarrollo: </b>Bajo</td>
     </tr>
     <tr>
         <td><b>Estimación: </b>5</td>
@@ -17,7 +17,7 @@
     <tr>
         <td colspan=2>
             <b>Historia de usuario: </b><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> usuario,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> nuevo usuario,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> registrarme en el sistema,<br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> poder acceder a las funciones de traducción y ejecución de consultas.
         </td>

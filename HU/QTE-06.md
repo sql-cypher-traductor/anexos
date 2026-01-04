@@ -1,7 +1,7 @@
 <table>
     <tr>
-        <td><b>ID: </b>QTEX-06</td>
-        <td><b>Usuario: </b>Desarrollador</td>
+        <td><b>ID: </b>QTE-06</td>
+        <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Visualización de resultados</td>

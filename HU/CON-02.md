@@ -1,7 +1,7 @@
 <table>
     <tr>
-        <td><b>ID: </b>CONN-02</td>
-        <td><b>Usuario: </b>Desarrollador</td>
+        <td><b>ID: </b>CON-02</td>
+        <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
         <td colspan=2><b>Título: </b>Configuración de conexión Neo4j</td>
