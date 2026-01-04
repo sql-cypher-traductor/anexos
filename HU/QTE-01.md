@@ -27,8 +27,8 @@
             <b>Criterios de aceptación: </b><br>
             <ul>
                 <li>Se debe agregar una sentencia SQL válida.</li>
-                <li>Debe soportar las sentencias son: <b>SELECT</b>, <b>INSERT INTO</b>, <b>UPDATE</b> y <b>DELETE</b>.</li>
-                <li>El sistema debe permitir el uso de la cláusula WHERE, las palabras reservadas <b>ALL</b>, <b>DISTINCT</b> y los operadores lógicos <b>NOT</b>, <b>AND</b> y <b>OR</b>.</li>
+                <li>Debe soportar las sentencias: <b>SELECT</b>, <b>INSERT INTO</b>, <b>UPDATE</b> y <b>DELETE</b>.</li>
+                <li>El sistema debe permitir el uso de la cláusula <b>WHERE</b>, las palabras reservadas <b>ALL</b>, <b>DISTINCT</b> y los operadores lógicos <b>NOT</b>, <b>AND</b> y <b>OR</b>.</li>
                 <li>Al seleccionar la opción Traducir, se debe mostrar la sentencia equivalente en lenguaje Cypher.</li>
                 <li>Si la sentencia tiene errores de sintaxis o no es soportada, se debe mostrar un mensaje.</li>
             </ul>

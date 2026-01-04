@@ -4,7 +4,7 @@
         <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
-        <td colspan=2><b>Título: </b>Gestión y visualización de conexiones</td>
+        <td colspan=2><b>Título: </b>Visualización de esquemas de bases de datos</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Media</td>
