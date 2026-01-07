@@ -4,33 +4,32 @@
         <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
-        <td colspan=2><b>Título: </b>Historial de Consultas</td>
+        <td colspan=2><b>Título: </b>Traducción de relaciones</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Alta</td>
-        <td><b>Riesgo en desarrollo: </b>Bajo</td>
+        <td><b>Riesgo en desarrollo: </b>Alto</td>
     </tr>
     <tr>
         <td><b>Estimación: </b>5</td>
-        <td><b>Iteración asignada: </b>Sprint 4</td>
+        <td><b>Iteración asignada: </b>Sprint 3</td>
     </tr>
     <tr>
         <td colspan=2>
             <b>Historia de usuario: </b><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> usuario,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> ver un historial de consultas realizadas,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> poder utilizarlas nuevamente reescribirlas.
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> desarrollador,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> traducir sentencias SQL para creación, modificación y eliminación de datos a lenguaje Cypher,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> poder administrar la información contenida en una base de datos orientada a grafos.
         </td>
     </tr>
     <tr>
         <td colspan=2>
             <b>Criterios de aceptación: </b><br>
             <ul>
-                <li>Se debe mostrar una lista paginada de las consultas traducidas y/o ejecutadas.</li>
-                <li>El historial de consultas debe ordenarse por fecha.</li>
-                <li>Se debe permitir la opción de filtrado y búsqueda.</li>
-                <li>Se debe permitir la opción para visualizar un detallado.</li>
-                <li>Se debe permitir la opción para copiar la consulta al portapapeles.</li>
+                <li>El sistema deberá traducir las sentencias INSERT INTO, UPDATE y DELETE.</li>
+                <li>El usuario deberá seleccionar la opción “Traducir” para visualizar la sentencia en lenguaje Cypher equivalente a la que ingresó.</li>
+                <li>Si la sentencia tiene errores de sintaxis o no es soportada, el sistema indicará un mensaje de error y no podrá ser traducida.</li>
+                <li>Las consultas traducidas, serán agregadas automáticamente al historial con la etiqueta TRADUCIDA.</li>
             </ul>
         </td>
     </tr>

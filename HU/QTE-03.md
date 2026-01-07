@@ -18,18 +18,18 @@
         <td colspan=2>
             <b>Historia de usuario: </b><br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> desarrollador,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> traducir sentencias SQL que incluyan JOINs,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> aprender el manejo de relaciones en Cypher.
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> traducir consultas SQL SELECT que involucren relaciones entre tablas,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> conocer cómo se construyen relaciones entre nodos en lenguaje Cypher.
         </td>
     </tr>
     <tr>
         <td colspan=2>
             <b>Criterios de aceptación: </b><br>
             <ul>
-                <li>El sistema debe soportar las cláusulas <b>INNER JOIN</b>, <b>LEFT JOIN</b> y <b>RIGHT JOIN</b>.</li>
-                <li>El usuario puede agregar una sentencia SQL válida que incluya JOINs.</li>
-                <li>Al seleccionar la opción Traducir, el sistema devolverá su equivalente en lenguaje Cypher.</li>
-                <li>Las consultas traducidas serán agregadas al historial de consultas.</li>
+                <li>El sistema deberá traducir las cláusulas: INNER JOIN , LEFT JOIN y RIGHT JOIN.</li>
+                <li>El usuario deberá seleccionar la opción “Traducir” para visualizar la sentencia en lenguaje Cypher equivalente a la que ingresó.</li>
+                <li>Si la sentencia tiene errores de sintaxis o no es soportada, el sistema indicará un mensaje de error y no podrá ser traducida.</li>
+                <li>Las consultas traducidas, serán agregadas automáticamente al historial con la etiqueta TRADUCIDA.</li>
             </ul>
         </td>
     </tr>

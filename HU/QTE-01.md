@@ -4,7 +4,7 @@
         <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
-        <td colspan=2><b>Título: </b>Traducción de operaciones DML básicas</td>
+        <td colspan=2><b>Título: </b>Traducción de sentencias SELECT estándar</td>
     </tr>
     <tr>
         <td><b>Prioridad en negocio: </b>Alta</td>
@@ -18,19 +18,22 @@
         <td colspan=2>
             <b>Historia de usuario: </b><br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> desarrollador,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> traducir sentencias SQL simples a lenguaje Cypher,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> interactuar con bases de datos orientadas a grafos sin tener que aprender un nuevo lenguaje de consulta.
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> traducir sentencias SELECT a lenguaje Cypher,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> obtener datos específicos de una base de datos orientada a grafos.
         </td>
     </tr>
     <tr>
         <td colspan=2>
             <b>Criterios de aceptación: </b><br>
             <ul>
-                <li>Se debe agregar una sentencia SQL válida.</li>
-                <li>Debe soportar las sentencias: <b>SELECT</b>, <b>INSERT INTO</b>, <b>UPDATE</b> y <b>DELETE</b>.</li>
-                <li>El sistema debe permitir el uso de la cláusula <b>WHERE</b>, las palabras reservadas <b>ALL</b>, <b>DISTINCT</b> y los operadores lógicos <b>NOT</b>, <b>AND</b> y <b>OR</b>.</li>
-                <li>Al seleccionar la opción Traducir, se debe mostrar la sentencia equivalente en lenguaje Cypher.</li>
-                <li>Si la sentencia tiene errores de sintaxis o no es soportada, se debe mostrar un mensaje.</li>
+                <li>El sistema deberá traducir  la sentencia SELECT para todas las columnas o solo columnas específicas de una tabla.</li>
+                <li>El sistema deberá soportar la cláusula WHERE, operadores de comparación (=, <, <= >, >=, <>) y operadores lógicos (AND, OR, NOT).</li>
+                <li>El sistema deberá traducir la cláusula ORDER BY junto a la forma de ordenamiento (ASC o DESC).</li>
+                <li>El sistema deberá traducir correctamente las palabras reservadas DISTINCT, y LIMIT/TOP.</li>
+                <li>El usuario deberá ingresar una sentencia SQL que cumpla con las restricciones indicadas.</li>
+                <li>El usuario deberá seleccionar la opción “Traducir” para visualizar la sentencia en lenguaje Cypher equivalente a la que ingresó.</li>
+                <li>Si la sentencia tiene errores de sintaxis o no es soportada, el sistema indicará un mensaje de error y no podrá ser traducida.</li>
+                <li>Las consultas traducidas, serán agregadas automáticamente al historial con la etiqueta TRADUCIDA.</li>
             </ul>
         </td>
     </tr>

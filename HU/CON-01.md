@@ -18,18 +18,20 @@
         <td colspan=2>
             <b>Historia de usuario: </b><br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> desarrollador,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> configurar la conexión a SQL Server,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> acceder a las bases de datos existentes.
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> configurar las conexiones a SQL Server y Neo4j,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> poder acceder a las bases de datos SQL existentes, traducir sentencias SQL a Cypher y ejecutarlas en una base de datos en Neo4j.
         </td>
     </tr>
     <tr>
         <td colspan=2>
             <b>Criterios de aceptación: </b><br>
             <ul>
-                <li>El formulario debe ingresar el host, usuario y contraseña correspondiente.</li>
-                <li>Se debe permitir pruebas de conexión.</li>
-                <li>Se debe mostrar opciones conexión o desconexión.</li>
-                <li>Se debe permitir el almacenamiento de configuraciones de conexión.</li>
+                <li>El formulario de conexión a SQL Server deberá solicitar los campos: host, puerto, base de datos, usuario y contraseña.</li>
+                <li>Una vez establecida la conexión a la base de datos SQL, el sistema indicará su esquema (tablas, columnas, relaciones y propiedades de cada una).</li>
+                <li>El formulario de conexión a Neo4j deberá solicitar los campos: nombre de conexión, URI, base de datos, usuario y contraseña.</li>
+                <li>El sistema validará que las credenciales de conexión de SQL Server o Neo4j ingresadas sean correctas mediante la opción "Probar Conexión".</li>
+                <li>El sistema permitirá almacenar las conexiones.</li>
+                <li>El sistema permitirá opciones para conectarse o desconectarse de las bases de datos.</li>
             </ul>
         </td>
     </tr>

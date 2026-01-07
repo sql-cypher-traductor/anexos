@@ -4,32 +4,31 @@
         <td><b>Rol: </b>Desarrollador</td>
     </tr>
     <tr>
-        <td colspan=2><b>Título: </b>Configuración de conexión Neo4j</td>
+        <td colspan=2><b>Título: </b>Gestión y visualización de conexiones</td>
     </tr>
     <tr>
-        <td><b>Prioridad en negocio: </b>Alta</td>
-        <td><b>Riesgo en desarrollo: </b>Medio</td>
+        <td><b>Prioridad en negocio: </b>Media</td>
+        <td><b>Riesgo en desarrollo: </b>Bajo</td>
     </tr>
     <tr>
-        <td><b>Estimación: </b>8</td>
+        <td><b>Estimación: </b>5</td>
         <td><b>Iteración asignada: </b>Sprint 2</td>
     </tr>
     <tr>
         <td colspan=2>
             <b>Historia de usuario: </b><br>
             &nbsp;&nbsp;&nbsp;&nbsp;<b>Como</b> desarrollador,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> configurar la conexión a Neo4j,<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> poder ejecutar las consultas Cypher traducidas en la base de datos respectiva.
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Quiero</b> visualizar la lista de conexiones,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>Para</b> agregar una nueva conexión o administrar una conexión guardada.
         </td>
     </tr>
     <tr>
         <td colspan=2>
             <b>Criterios de aceptación: </b><br>
             <ul>
-                <li>El formulario debe incluir URI, usuario y contraseña.</li>
-                <li>El sistema debe permitir pruebas de conexión.</li>
-                <li>El sistema debe permitir el almacenamiento de credenciales de conexión.</li>
-                <li>Se debe permitir la conexión o desconexión a la base de datos.</li>
+                <li>El sistema mostrará la lista de conexiones almacenadas con los campos base de datos y estado.</li>
+                <li>Por cada conexión, el sistema indicará las opciones para conectarse/desconectarse, editar o eliminar la conexión.</li>
+                <li>Si al seleccionar la opción conectarse existen problemas de conexión a una base de datos, el sistema mostrará un mensaje de error.</li>
             </ul>
         </td>
     </tr>
